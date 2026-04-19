@@ -1,0 +1,17 @@
+@import './themes/vercel.css';
+@import './themes/claude.css';
+@import './themes/whatsapp.css';
+@import './themes/supabase.css';
+@import './themes/mono.css';
+@import './themes/neobrutualism.css';
+@import './themes/zen.css';
+@import './themes/astro-vista.css';
+@import './themes/light-green.css';
+@import './themes/notebook.css';
+
+[data-theme] body {
+  --font-sans: initial;
+  --font-mono: initial;
+  --font-serif: initial;
+  font-family: var(--font-sans);
+}
